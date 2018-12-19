@@ -1,0 +1,32 @@
+{
+  "name": "tb-vue-http",
+  "version": "1.0.1",
+  "description": "A Vue http-plugin",
+  "main": "dist/vue-http.js",
+  "scripts": {
+    "build": "rm -rf ./dist && webpack --config ./webpack.config.js"
+  },
+  "author": "tbalint19",
+  "license": "MIT",
+  "dependencies": {
+    "popper.js": "^1.12.9",
+    "vue": "^2.5.2"
+  },
+  "repository": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.2.1",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-es2016": "^7.0.0-beta.53",
+    "babel-loader": "^8.0.4",
+    "babel-preset-vue": "^2.0.2",
+    "css-loader": "^2.0.0",
+    "style-loader": "^0.23.1",
+    "vue-template-compiler": "^2.5.19",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.5",
+    "vue-loader": "^15.4.2",
+    "vue-style-loader": "^4.1.2"
+  }
+}
