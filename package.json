@@ -1,7 +1,10 @@
 {
   "name": "tb-vue-http",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A Vue http-plugin",
+  "keywords": [
+    "Vue", "VueJS", "http", "plugin", "http-plugin", "rest", "promise"
+  ],
   "main": "dist/vue-http.js",
   "scripts": {
     "build": "rm -rf ./dist && webpack --config ./webpack.config.js"
@@ -12,7 +15,10 @@
     "popper.js": "^1.12.9",
     "vue": "^2.5.2"
   },
-  "repository": {},
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/tbalint19/tb-vue-http"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.0",
     "@babel/plugin-proposal-class-properties": "^7.2.1",
