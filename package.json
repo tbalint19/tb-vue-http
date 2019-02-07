@@ -1,6 +1,6 @@
 {
   "name": "tb-vue-http",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Vue http-plugin",
   "keywords": [
     "Vue", "VueJS", "http", "plugin", "http-plugin", "rest", "promise"

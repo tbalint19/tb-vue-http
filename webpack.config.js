@@ -67,7 +67,7 @@ module.exports = [
   merge(commonConfig, {
     entry: path.resolve(__dirname + '/src/plugin.js'),
     output: {
-      filename: 'tb19-vue-http.min.js',
+      filename: 'tb-vue-http.min.js',
       libraryTarget: 'window',
       library: 'VueHTTP'
     }
@@ -77,11 +77,11 @@ module.exports = [
   merge(commonConfig, {
     entry: path.resolve(__dirname + '/src/plugin.js'),
     output: {
-      filename: 'tb19-vue-http.js',
+      filename: 'tb-vue-http.js',
       libraryTarget: 'umd',
 
       // These options are useful if the user wants to load the module with AMD
-      library: 'tb19-vue-http',
+      library: 'tb-vue-http',
       umdNamedDefine: true
     }
   })
